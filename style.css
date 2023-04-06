@@ -1,0 +1,87 @@
+body {
+  background-image: url(source/Background-Image.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  font-family: "Games", sans-serif;
+}
+
+
+.list-unstyled .media {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+@media (max-width: 1920px) {
+  .container {
+    max-width: 970px;
+  }
+  .about-link {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 15px 20px 0 20px;
+  }
+  .game-link {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 15px 20px 0 20px;
+  }
+  .title-about {
+    font-size: 40px;
+    margin: 30px 10px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+  }
+  .navbar {
+    background-color: rgba(163, 163, 163, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+  }
+  #points-display{
+    font-size: 50px;
+    font-family: 'sunday funday', sans-serif;         
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  body{
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  .navbar {
+    margin-top: 10px;
+    background-color: grey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  #gif-img{
+    width: 100px;
+  }
+}
+.game {
+  color: #fff;
+}
+.about-us {
+  font-family: monospace;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  border-radius: 3px;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+audio {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
