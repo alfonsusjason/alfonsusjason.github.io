@@ -56,7 +56,7 @@ document
     startAutoClickers();
   }
   else {
-    alert("Kamu miskin! Uang kamu tidak cukup untuk mennjual Auto Clicker!");
+    alert("Kamu miskin! Uang kamu tidak cukup untuk membeli Auto Clicker!");
   }
 });
 
